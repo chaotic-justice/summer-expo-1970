@@ -1,0 +1,24 @@
+{
+  "Header": {
+    "title": "Let summer be",
+    "links": {
+      "item0": {
+        "label": "Records",
+        "link": "/records"
+      },
+      "item1": {
+        "label": "Works",
+        "link": "/works"
+      }
+    }
+  },
+  "About": {
+    "title": "About Us",
+    "p1": "Let-Summer-Be is a digital archive of rural aesthetic education, which is a qualitative longitudinal report (QLR: qualitative longitudinal studies) written by Crossing the Wheatland's aesthetic education team for rural children in Yunnan Province. Under the achievement-based education evaluation system, Let-Summer-Be is committed to paying attention to the neglected growth trajectories of rural children.",
+    "p2": "Under the premise of informed consent, we present to the children themselves, their parents, their schools, and the public the developmental trajectories of the children in the four dimensions of a) hobbies and interests, b) personality traits and mental health, c) social behaviors, and d) the external environment (focusing on the educational methods of schools, families, and the social educational policies). By organizing the precious first-hand information of Crossing the Wheatland's contact with rural children in the Gaoligong Mountains of Yunnan Province, we have conducted qualitative observation and quantitative data analysis at the micro level, in an attempt to see the macro problem of the shortage of education in China's rural villages. On the basis of strict adherence to ethical codes of anthropological research and legal regulations, Let-Summer-Be open-source archive will serve as a catalyst to provide a comparative resource for public service organizations and researchers concerned with rural education in China.",
+    "subtitle": "Village Aesthetic Education",
+    "p3": "Each summer, we will invite talented, humanistic young artists to stay in rural schools in China, guiding children through art and nurturing a passion for knowledge and life.",
+    "p4": "We are not 'philanthropists' or 'educators'. We want to see rural children as artists with independent consciousness, and become their equal partners, in order to fill the spiritual gap that rural students are generally facing in the current homogenized education model.",
+    "ctaButtonText": "follow us"
+  }
+}
