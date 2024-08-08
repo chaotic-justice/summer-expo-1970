@@ -1,6 +1,7 @@
 "use client";
 
 import { AuthorQuery } from "@/tina/__generated__/types"
+import { Wallpaper } from "lucide-react"
 import { useTina } from "tinacms/dist/react"
 
 interface Props {
@@ -20,9 +21,8 @@ const Author = (props: Props) => {
     data: props.data,
   })
   const obj = {
-    avatar: author?.avatar,
+    wallpaper: author?.wallpaper,
     title: author?.title,
-    ...author.displayNames,
   }
 
   return (

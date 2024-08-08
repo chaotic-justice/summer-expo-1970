@@ -22,15 +22,10 @@ const AuthorsList = ({
         {edges?.map((author) => {
           const pattern = /\/([^/]+)\.md$/
           const match = (author?.node?.id || "").match(pattern)
-          console.log("author", author?.node?.displayNames)
-          let displayName = author?.node?.displayNames?.find((name) => name?.lang === lang)
-          if (!displayName && author?.node?.displayNames && author?.node?.displayNames?.length > 0) {
-            displayName = author?.node?.displayNames[0]
-          }
           return (
             <li key={author?.node?.id}>
               <Link href={`/authors/${match && match[1]}`}>
-                <h2>{displayName?.value}</h2>
+                <h2>{author?.node?.name_en}</h2>
               </Link>
             </li>
           )
