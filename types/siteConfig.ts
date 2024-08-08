@@ -30,11 +30,11 @@ export type SiteConfig = {
   metadataBase: URL | string | undefined
   themeColors?: string | ThemeColor[]
   nextThemeColor?: string
-  // icons: {
-  //   icon: string;
-  //   shortcut?: string;
-  //   apple?: string;
-  // };
+  icons: {
+    icon: string
+    shortcut?: string
+    apple?: string
+  }
   openGraph: {
     type: string
     locale: string

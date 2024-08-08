@@ -23,10 +23,11 @@ const baseSiteConfig = {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   nextThemeColor: "light", // next-theme option: system | dark | light
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon-16x16.png",
-  // },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
   headerLinks: [
     {
       name: "ins",
@@ -35,7 +36,7 @@ const baseSiteConfig = {
     },
   ],
   footerLinks: [
-    { name: "email", href: "mailto:shu.kagift@gmail.com", icon: MdEmail },
+    { name: "email", href: "mailto:ichbinhallie0426@gmail.com", icon: MdEmail },
     {
       name: "github",
       href: OPEN_SOURCE_URL,
